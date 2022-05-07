@@ -1,0 +1,13 @@
+to read the value as an ascii code, you can write
+
+char a = 'a';
+int ia = (int)a; 
+
+to convert the character '0' -> 0, '1' -> 1, etc, you can write
+
+char a = '4';
+int ia = a - '0';
+
+for string to int
+
+to_string()
